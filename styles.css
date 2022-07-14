@@ -21,6 +21,13 @@ img {
 
 }
 
+.cart {
+
+    max-width: 1em;
+    margin-right: 5px;
+
+}
+
 /* Typography */
 
 h1 {
@@ -70,6 +77,9 @@ p {
 
 button {
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: hsl(158, 36%, 37%);
     color: white;
     width: 100%;
@@ -77,6 +87,18 @@ button {
     border-radius: 8px;
     padding: 1em 0 1em 0;
     font-weight: 700;
+
+}
+
+button:hover {
+
+    cursor: pointer;
+
+}
+
+button:active {
+
+    background-color: hsl(212, 21%, 14%);
 
 }
 
