@@ -148,14 +148,14 @@ main {
 
 /* Media Queries */
 
-@media screen and (min-width: 675px) {
+@media screen and (min-width: 575px) {
     
     .container {
 
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: .95fr 1fr;
         grid-template-rows: 1fr;
-        max-width: 560px;
+        max-width: 600px;
         margin: 100px auto;
 
     }
@@ -169,7 +169,38 @@ main {
     .desktop {
 
         display: block;
+        height: 100%;
         border-radius: 10px 0 0 10px;
 
     }
+
+    main {
+        margin-left: 2em;
+    }
+
+    h1 {
+
+        margin: 1.5em 0;
+
+    }
+
+    h2 {
+
+        line-height: 1em;
+        margin-bottom: .75em;
+
+    }
+
+    .main-text {
+
+        margin-bottom: .5em;
+
+    }
+
+    .prices {
+
+        margin-bottom: 1em;
+
+    }
+
 }
